@@ -1,0 +1,26 @@
+.clock-container {
+  position: relative;
+  background-image: radial-gradient(white 10%, yellowgreen);
+  width: 135px;
+  height: 135px;
+  border-radius: 50%;
+}
+.dial {
+  position: absolute;
+}
+.minute,
+.hour,
+.second {
+  position: absolute;
+  z-index: 1;
+  width: 80px;
+  height: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
